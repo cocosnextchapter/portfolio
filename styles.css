@@ -1,0 +1,886 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+h1 {
+    font-family: 'Roca', sans-serif;
+}
+
+main {
+    background-color: #f5f2eadb;
+    color: #283618;
+    grid-row: 2/2;
+
+
+}
+
+header {
+    grid-row: 1 / 2;
+}
+
+main {
+    grid-row: 2 / 3;
+}
+
+footer {
+    grid-row: 3 / 4;
+}
+
+
+/*STYLE HEADER*/
+header {
+    background-color: #4b2b5d;
+    max-height: 100%;
+    grid-row: 1/1;
+    padding-top: 15px;
+    align-items: baseline;
+}
+
+header h1 {
+    font-size: 3.1em;
+    padding-left: 10px;
+    padding-top: 25px;
+    font-family: "Roca", sans-serif;
+    font-weight: 900;
+    line-height: 1;
+    align-self: baseline;
+
+}
+
+
+.main-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 10px;
+    padding-right: 4px;
+    padding-left: 4px;
+
+
+}
+
+.main-nav a {
+    padding: 5px 10px;
+    background-color: #795e85;
+    color: whitesmoke;
+    align-items: center;
+    text-align: center;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+
+}
+
+.main-nav a:hover {
+    background-color: #b19eb9;
+    transition-duration: .3s;
+}
+
+/*Style Footer*/
+footer {
+    background-color: #104f6c;
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100px;
+    display: flex;
+    align-self: flex-end;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #f5ebe0;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row: 3/3;
+
+
+
+
+}
+
+.headerthree {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: .8rem;
+    letter-spacing: 2px;
+    grid-row: 1/1;
+    grid-column: 1/4;
+    align-self: center;
+}
+
+footer a {
+    color: #eff3dd;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.icons {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    grid-column: 2/3;
+    padding: 3px;
+}
+
+.youtube {
+    padding-top: 6px;
+}
+
+.substack {
+    padding-top: 6px;
+}
+
+footer a:hover {
+    color: #C7AEBF;
+}
+
+
+h1 {
+    color: #f3f1dff0;
+
+    font-size: 1em;
+    font-style: normal;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f5ebe0;
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+
+}
+
+.email {
+    padding-top: 3.5px;
+
+
+}
+
+.substack {
+    padding-top: 5px;
+}
+
+
+/***********BEGIN STYLING PAGES**************/
+
+/*LANDING PAGE/MAIN PAGE*/
+
+/*STYLE MAIN*/
+
+.hero {
+    padding-top: 10px;
+}
+
+.main-blurb {
+    color: #456a33e5;
+    font-family: roca;
+    font-size: 1.7rem;
+    text-align: right;
+    font-weight: 700;
+    padding: 15px 10px;
+    padding-left: 25px;
+    line-height: 1;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.second-blurb {
+    color: #547585;
+    font-family: roca, sans-serif;
+    font-weight: 300;
+    font-size: 1.45rem;
+    text-align: left;
+    margin-right: 15px;
+    padding-left: 20px;
+    padding-right: 40px;
+    padding-bottom: 5px;
+    padding-top: 30px;
+    line-height: 1.1;
+}
+
+/*Style hero photos as buttons*/
+.container {
+    position: relative;
+}
+
+.branding {
+    background-color: rgba(38, 52, 4, 0.347);
+}
+
+
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0%;
+    transition: .3s ease;
+    background-color: #593e67b5;
+
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.photos img {
+    object-fit: contain;
+    max-width: 100vw;
+
+}
+
+.container {
+    margin: 15px;
+}
+
+.text {
+    color: #efe7cf;
+    font-family: 'montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    text-align: center;
+    line-height: 1;
+    padding-top: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+
+.my-faves {
+    font-size: 1.2rem;
+    padding: 5px;
+    font-family: 'montserrat', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.my-faves h2 {
+    color: #956989;
+    font-family: 'Roca', serif;
+    font-size: 1.8rem;
+
+}
+
+
+.break {
+    border: 2px solid rgba(38, 52, 4, 0.347);
+    border-radius: 40%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+
+/***Style "my work" page***/
+
+.mywork-page main {
+    min-height: 100vh;
+
+}
+
+
+.mywork-page h2 {
+    font-family: 'Roca', serif;
+    font-weight: 600;
+    justify-content: center;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 20px;
+    font-size: 1.3rem;
+    color: #3d3d3d;
+
+}
+
+.mywork-page h3 {
+    font-family: 'montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    color: #a94d48;
+    padding-bottom: 5px;
+}
+
+.mywork-page a {
+
+    align-items: center;
+    text-align: center;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #3f6173;
+
+}
+
+.mywork-page a:hover {
+    color: #d3aec7;
+}
+
+.mywork-page img {
+    max-width: 100%;
+    object-fit: cover;
+    max-height: 40vh;
+    padding: 5px;
+}
+
+.websites {
+    padding-bottom: 10px;
+}
+
+.fnb {
+    background-color: #50798d;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+
+}
+
+.fnb:hover {
+    background-color: #9055629a;
+
+}
+
+.fnb img {
+    max-width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+}
+
+.js-instruct {
+    color: #000000;
+    font-size: .9rem;
+    padding: 8px 15px;
+    margin: 10px;
+
+}
+
+.js-instruct h4 {
+    color: #696767;
+}
+
+.js {
+    padding-top: 6px;
+    padding-bottom: 5px;
+}
+
+
+
+.work-coding {
+    padding: 15px;
+}
+
+.javascript {
+    padding-top: 15px;
+}
+
+.midwest {
+    text-align: center;
+    justify-content: center;
+}
+
+.explain {
+    padding: 20px;
+    text-align: left;
+}
+
+/*STYLE COLLAPSIBLES*/
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    background-color: #73875b;
+    border-radius: 5px;
+    color: #C7AEBF;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.collapsible h3 {
+    color: #eff3dd;
+}
+
+
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.collapsible:hover {
+    background-color: #90748f;
+
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+    justify-content: center;
+    text-align: center;
+    max-width: 100vh;
+    padding-bottom: 10px;
+    object-fit: cover;
+
+
+}
+
+.disclaimer {
+    text-align: left;
+    padding-right: 10px;
+    padding-top: 10px;
+    font-size: .9rem;
+    text-align: center;
+}
+
+.js-instruct ul {
+    list-style-position: inside;
+}
+
+/*STYLE CONTACT PAGE*/
+
+.contact-page {
+    padding: 15px;
+}
+
+.contact-page h2 {
+    color: #3d3d3d;
+    font-family: 'Roca', sans-serif;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.contact-page h3 {
+    font-family: 'montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #755e79;
+    text-align: left;
+    padding-top: 15px;
+
+}
+
+.contact-page p {
+    font-size: 1.2rem;
+}
+
+.contact-page a {
+    color: #196a90;
+    margin-top: 2px;
+    padding-left: 3px;
+}
+
+.contact-page a:hover {
+    color: #c2645fbd;
+    margin-top: 2px;
+    padding-left: 3px;
+}
+
+
+input[type=text],
+input[type=email] {
+    appearance: none;
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: none;
+}
+
+input[type=name] {
+    appearance: none;
+    width: 100%;
+    color: white;
+    padding: 14px;
+    margin: 8px 0;
+    cursor: pointer;
+}
+
+
+/*******FORM STYLING*****/
+form {
+    padding-top: 15px;
+}
+
+form h2 {
+    font-weight: 400;
+}
+
+button[type=submit] {
+    appearance: none;
+    background-color: #a17894;
+    color: #ffffff;
+    font-family: 'montserrat';
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+
+button[type=submit]:hover {
+    background-color: #79516c;
+    transition-duration: 0.5s;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+div {
+    padding-bottom: 10px;
+}
+
+.youtube p {
+    padding-bottom: 15px;
+}
+
+.iframe-container {
+    overflow: hidden;
+    padding-top: 56.25%;
+    position: relative;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*STYLE ABOUT ME PAGE*/
+
+.mystory {
+    font-family: 'Roca', serif;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
+
+.about h3 {
+    color: #b66c68;
+    padding-left: 20px;
+    font-size: 1.3rem;
+}
+
+.about p {
+    padding-bottom: 10px;
+    margin: 20px;
+    font-size: 1.1rem;
+}
+
+
+/****************************DESKTOP STYLING******************************/
+
+@media screen and (min-width: 700px) {
+
+    /*STYLE HEADER*/
+
+    header h1 {
+        font-size: 4rem;
+        padding-top: 15px;
+        padding-left: 25px;
+    }
+
+    .main-nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .main-nav a {
+        padding: 10px 10px;
+        font-size: .9rem;
+    }
+
+
+    /*STYLE MAIN*/
+    .main-blurb {
+        color: #73875b;
+        font-size: 2rem;
+        font-weight: bold;
+        padding-right: 15px;
+        margin-left: 150px;
+        text-align: right;
+        line-height: 1.1;
+        padding-top: 35px;
+        padding-bottom: 30px;
+    }
+
+    .second-blurb {
+
+        font-size: 1.7rem;
+        text-align: left;
+        padding-left: 15px;
+        padding-bottom: 20px;
+        margin-right: 150px;
+    }
+
+    .photos {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        min-height: 1;
+        padding-right: 5px;
+        padding-left: 5px;
+        gap: 10px;
+    }
+
+    .photos img {
+        object-fit: cover;
+        min-height: 40vh;
+        min-width: 100%;
+
+    }
+
+    .branding {
+        grid-column: 1/1;
+        grid-row: 1/1;
+        min-height: 100%;
+        object-fit: cover;
+        background-color: rgba(38, 52, 4, 0.347);
+    }
+
+    .coding {
+        grid-column: 2/2;
+        grid-row: 1/1;
+        object-fit: cover;
+        min-height: 100%;
+    }
+
+    .photography {
+        grid-column: 3/3;
+        grid-row: 1/1;
+        object-fit: cover;
+        max-width: 100%;
+        min-height: 100%;
+
+    }
+
+    .image {
+        width: 100%;
+        height: auto;
+    }
+
+    .container {
+        position: relative;
+        margin: 0;
+    }
+
+    .photos img {
+        object-fit: cover;
+        max-width: 100%;
+        max-height: 220px;
+    }
+
+
+    .container:hover .overlay {
+        opacity: 1;
+    }
+
+    .text {
+        color: #efe7cf;
+        font-family: 'montserrat', sans-serif;
+        text-transform: uppercase;
+        font-size: 1.2rem;
+        letter-spacing: 1.5px;
+        line-height: 1;
+        padding-top: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50);
+        transform: translate(-50%, -50%);
+        text-align: center;
+        align-items: baseline;
+    }
+
+
+
+
+    .my-faves {
+        font-size: 1.2rem;
+        padding: 5px;
+        font-family: 'montserrat', sans-serif;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+
+    .my-faves h2 {
+        font-size: 1.8rem;
+        padding-bottom: 25px;
+        padding-right: 10px;
+    }
+
+
+    .email {
+        padding-bottom: 3.5px;
+    }
+
+    .youtube {
+        padding-top: 5px;
+    }
+
+    .substack {
+        padding-top: 5px;
+    }
+
+
+    /*STYLE MY WORK COLLAPSIBLES FOR DESKTOP*/
+    .mywork-page h2 {
+        font-size: 1.5rem;
+    }
+
+    .mywork-page h3 {
+        font-size: 1.2rem;
+
+    }
+
+    /* Style the collapsible content. Note: hidden by default */
+
+    .perkup-project {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 100%;
+        object-fit: contain;
+        background-size: cover;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .perkup-project img {
+        min-height: 350px;
+        max-width: 100%;
+        object-fit: cover;
+    }
+
+    .crochet-project {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 100%;
+        object-fit: contain;
+        background-size: cover;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .crochet-project img {
+        min-height: 350px;
+        max-width: 100%;
+        object-fit: cover;
+    }
+
+    .sunflower {
+        object-fit: cover;
+        max-width: 400px;
+    }
+
+    .work-coding {
+        padding: 20px;
+
+    }
+
+    .midwest {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .js-instruct {
+        margin-left: 100px;
+        margin-right: 100px;
+        justify-content: center;
+
+    }
+
+    .redesign {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+
+}

@@ -1,0 +1,458 @@
+/*Style Universal Elements*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Lexend Deca", sans-serif;
+    font-size: .97rem;
+    font-weight: 300;
+    background-color: antiquewhite;
+}
+
+h1 {
+    font-family: "Gabarito";
+    justify-content: center;
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: 800;
+}
+
+h3 {
+    font-family: "Gabarito", sans-serif;
+}
+
+/*Style Header*/
+header {
+    display: flex;
+    background-color: #556b2f;
+    color: rgb(244, 244, 232);
+    padding-bottom: 5px;
+    justify-content: left;
+}
+
+header img {
+    width: 100px;
+    padding-left: 5px;
+    padding-top: 3px;
+}
+
+
+header h1 {
+    justify-content: center;
+    text-align: left;
+    align-items: baseline;
+    padding-left: 5px;
+    font-size: 1.8rem;
+}
+
+.title {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-family: "Outfit", serif;
+    font-size: 1.2rem;
+    font-weight: 800;
+    line-height: .9;
+}
+
+.name {
+    padding-top: 20px;
+    font-size: 2em;
+}
+
+/*Style Nav*/
+
+nav {
+    font-family: "Outfit", sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5px 5px;
+    max-width: 100%;
+    color: beige;
+    background-color: #440e4c;
+
+}
+
+.navigation {
+    padding: 10px;
+    background-color: #703f76;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: .8rem;
+    border-radius: 5px;
+    margin: 2px 5px;
+
+}
+
+.navigation a {
+    text-decoration: none;
+    color: rgb(244, 244, 232);
+}
+
+nav div:hover {
+    transition-duration: 0.3s;
+    background-color: #ba90bf;
+}
+
+
+
+.outer {
+    display: grid;
+    margin: 0% 1%;
+}
+
+/*Style Hero Section*/
+.veggiesicon {
+    text-align: center;
+    padding-top: 9px;
+    padding-bottom: 4px;
+}
+
+.hero-image {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.hero-image img {
+    object-fit: cover;
+
+    max-width: 100%;
+    border-radius: 6px;
+}
+
+.quote {
+    font-family: "Outfit", sans-serif;
+    font-style: italic;
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin: 0px 2%;
+    padding-top: 3px;
+    line-height: .9;
+}
+
+.author {
+    text-align: right;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    font-family: "Outfit", sans-serif;
+    font-size: 1rem;
+}
+
+/*Style "Get Involved" Section*/
+.actionbuttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 100%;
+    color: beige;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    margin: 1px 5px;
+    padding-top: 8px;
+    padding-bottom: 30px;
+}
+
+.action {
+    padding: 10px;
+    background-color: #592f5f;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: .8rem;
+    border-radius: 6px;
+}
+
+.action a {
+    text-decoration: none;
+    color: rgb(244, 244, 232);
+}
+
+.actionbuttons :hover,
+.actionbuttons a:hover {
+    transition-duration: 0.3s;
+    background-color: #ba90bf;
+}
+
+.last {
+    grid-column: 1/3;
+    background-color: #556b2f;
+    font-size: 1.1rem;
+
+}
+
+.actionbuttons .last:hover,
+.last a:hover {
+    background-color: #819d50;
+}
+
+
+/*Style "About Us" Section*/
+
+.about-body h3 {
+    font-family: "Gabarito", sans-serif;
+    font-weight: 500;
+    padding-top: 4px;
+    padding-bottom: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.canton,
+.mission,
+.expectations {
+    padding-top: 2px;
+    padding-bottom: 15px;
+    padding: 5px 10px 15px 10px;
+    background-color: rgba(227, 206, 179, 0.712);
+    border-top: 6px solid #556b2f;
+    border-radius: 8px;
+    margin: 10px 3px;
+
+}
+
+.offerings li {
+    padding: 5px;
+    list-style-position: inside;
+}
+
+footer {
+    background-color: #592f5f;
+    color: rgb(244, 244, 232);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr;
+    justify-content: center;
+    text-align: center;
+    align-self: flex-end;
+    padding-bottom: 3px;
+
+}
+
+footer h3 {
+    font-size: 1.15rem;
+    text-align: center;
+}
+
+.location,
+.contact {
+    padding: 3px 5px;
+
+}
+
+.location,
+.location h3 {
+    text-align: left;
+}
+
+.contact,
+.contact h3 {
+    text-align: right;
+}
+
+
+.newsletter {
+    grid-row: 1/3;
+    grid-column: 1/3;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.contact a:link {
+    text-decoration: none;
+    color: #cea8d3;
+}
+
+.contact a:hover {
+    color: rgb(164, 204, 96);
+    text-decoration: none;
+    background: none;
+    transition-duration: 0.4s;
+}
+
+
+.socials a:link {
+    text-decoration: none;
+    padding-top: 7px;
+}
+
+.fa {
+    padding: 5px;
+    color: #c89bce;
+
+}
+
+input[type=text] {
+    margin-top: 4px;
+    outline-style: none;
+    padding: 3px;
+}
+
+input[type=submit] {
+    background-color: #cea8d3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+    margin-top: 6px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 0.9em;
+    font-family: "Manrope";
+
+}
+
+
+input[type=submit]:hover {
+    background-color: #b47ebb;
+    text-transform: uppercase;
+    transition-duration: 0.3s;
+
+
+
+}
+
+/*****************Style for larger screens*****************/
+@media screen and (min-width: 650px) {
+
+    /*Style General*/
+
+    h3 {
+        font-size: 1.3rem;
+
+    }
+
+
+
+    /* Style Header and Nav*/
+    .name {
+        display: grid;
+        font-size: 3.3rem;
+        padding-top: 40px;
+    }
+
+    nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    }
+
+    .navigation {
+        font-size: .9rem;
+        letter-spacing: 1.5px;
+        padding: 15px;
+    }
+
+    /* Style Hero Section & Quote*/
+
+    .veggiesicon img {
+        padding-top: 20px;
+    }
+
+    .hero-image {
+        margin: 0% 1.5%;
+        max-width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .image-one {
+        display: grid;
+        padding-bottom: 10px;
+    }
+
+    .image-one img {
+        justify-content: center;
+        max-height: 500px;
+        grid-column: 1fr;
+        grid-column: 2/3;
+        object-fit: cover;
+        object-position: center;
+
+    }
+
+    .quote {
+        padding-top: 10px;
+        font-size: 1.3rem;
+    }
+
+    .author {
+        font-size: 1.1rem;
+    }
+
+    /*Style Action Buttons*/
+
+    .actionbuttons {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+
+    }
+
+    .action {
+        padding: 15px;
+        background-color: #592f5f;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        font-size: .9rem;
+        border-radius: 5px;
+    }
+
+
+    .last {
+        grid-row: 1/2;
+        grid-column: 3/5;
+        background-color: #556b2f;
+        font-size: 1rem;
+    }
+
+
+    /*Style About Section*/
+    .about {
+        font-size: 1.8rem;
+    }
+
+    .about-body {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+        padding-bottom: 8px;
+    }
+
+
+    /*Style Footer*/
+
+    .footer-content {
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 0px;
+        padding: 5px 10px;
+    }
+
+    .footer-content h3 {
+        font-size: 1.5rem;
+        align-self: center;
+    }
+
+    .newsletter h3 {
+        padding-bottom: 10px;
+    }
+
+    .logo img {
+        object-fit: contain;
+        height: 85px;
+    }
+
+
+
+}

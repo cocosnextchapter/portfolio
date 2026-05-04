@@ -1,0 +1,668 @@
+/****************************** Standard Styles *********************************/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+body {
+    font-family: 'Scope One', serif;
+    padding-left: 10px 10px;
+    background-color: rgb(0, 7, 5);
+    color: floralwhite;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+tr {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    height: 50px;
+}
+
+
+/*****HEADER*****/
+header {
+    text-align: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+.header-logos {
+    color: rgb(238, 236, 236);
+    padding-bottom: 2%;
+    padding-top: 3%;
+}
+
+header h1 {
+    font-family: "Rokkitt";
+    font-weight: 400;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding-bottom: 5px;
+}
+
+header h2 {
+    font-family: 'Rokkitt', serif;
+    font-weight: 300;
+    font-size: 1.3em;
+}
+
+
+.name-logo {
+    max-width: 100%;
+    max-height: 120px;
+    padding-top: 5px;
+}
+
+
+h1,
+h2 {
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+
+}
+
+
+
+
+/*****NAVIGATION******/
+
+nav {
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    background-image: url(https://static.wixstatic.com/media/0396af7423c344a39107ad593c4500f8.jpg);
+    background-size: cover;
+}
+
+.nav1,
+.nav2 {
+    width: 50%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 1.75;
+    padding: 10px;
+}
+
+nav li {
+    font-family: "Nunito", sans-serif;
+    background-color: rgb(0, 7, 5);
+    margin: 5px;
+    font-size: .75em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-radius: 2px;
+    padding: 15px 0px;
+
+}
+
+nav a {
+    color: floralwhite;
+}
+
+nav a:hover {
+    transition-duration: 0.3s;
+}
+
+nav li:hover {
+    background-color: rgb(181, 12, 113);
+    transition-duration: 0.3s;
+}
+
+
+
+
+
+/***Hero Image***/
+.hero {
+    display: flex;
+    background-image: url(https://static.wixstatic.com/media/cb2e86_0254f683ccd24e898459a0ad6a1766f6~mv2_d_2048_1356_s_2.jpg/v1/fill/w_2048,h_1169,al_c,q_90/cb2e86_0254f683ccd24e898459a0ad6a1766f6~mv2_d_2048_1356_s_2.jpg);
+    height: 250px;
+    background-size: cover;
+    background-position: right;
+    padding-bottom: 5px;
+    justify-content: center;
+    align-items: flex-end;
+    color: floralwhite;
+}
+
+/***ORDER BUTTONS***/
+
+.order {
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    justify-content: left;
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+}
+
+.order a {
+    display: flex;
+    background-color: #287220e6;
+    color: floralwhite;
+    font-size: .8em;
+    text-transform: uppercase;
+    text-align: left;
+    align-items: center;
+    letter-spacing: 3px;
+    border-radius: 2px;
+    padding: 10px;
+    height: 35px;
+    width: 50%;
+}
+
+.order a:hover {
+    background-color: rgb(115, 18, 75);
+    transition-duration: 0.3s;
+}
+
+
+
+
+/******Introduction******/
+.intro {
+    justify-content: center;
+    padding-top: 8px;
+
+}
+
+.intro h2 {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 10px;
+    font-family: 'Oooh baby', serif;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 300;
+    line-height: .9;
+
+}
+
+.intro p {
+    font-size: 1em;
+    text-align: center;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 15px 10px;
+
+}
+
+.intro-blurb {
+    font-size: 1.3rem;
+}
+
+.blurb {
+
+    font-size: 2rem;
+}
+
+
+
+/******Specials******/
+
+.weekly h2 {
+    font-weight: lighter;
+}
+
+.specials {
+    border-top: .5px solid rgba(255, 250, 240, 0.665);
+    margin: 3%;
+    padding-top: 15px;
+}
+
+.specials h2 {
+    font-family: "Oooh Baby", serif;
+    font-size: 1.5rem;
+    padding-bottom: 2px;
+}
+
+.specials ul {
+    padding-bottom: 10px;
+}
+
+table {
+    padding-bottom: 3px;
+}
+
+
+.upper {
+    font-family: 'Rokkitt', serif;
+    font-size: 1.2em;
+    letter-spacing: 1.7px;
+}
+
+.happy-hour {
+    padding-top: 10px;
+    max-width: 100%;
+}
+
+.happy-hour h3 {
+    font-family: 'Rokkitt', serif;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+.happy-hour ul {
+    font-size: 1em;
+}
+
+.cocktails {
+    color: rgb(185, 50, 129);
+}
+
+.drinks-photos {
+    border-bottom: 1px solid rgba(255, 250, 240, 0.665);
+}
+
+.drinks-photos img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+
+/******Locations******/
+
+.locations {
+    padding: 5px 8px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 250, 240, 0.665);
+    margin: 3%;
+}
+
+.locations h2 {
+    justify-content: center;
+    max-width: 100%;
+    font-family: "Oooh Baby", serif;
+    font-weight: bold;
+    font-size: 1.4em;
+    color: floralwhite;
+}
+
+.locations h1 {
+    font-family: "Rokkitt";
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.8em;
+    padding-top: 5px;
+}
+
+.locations img {
+    max-width: 90px;
+}
+
+.loc-header {
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.address {
+    padding-bottom: 10px;
+}
+
+.col-1,
+.col-2,
+.col-3 {
+    padding-bottom: 15px;
+}
+
+
+/******SOCIALS BUTTONS******/
+.socials {
+    padding-top: 20px;
+
+}
+
+.socials a {
+    padding: 10px;
+    gap: 30px;
+}
+
+.socials img {
+    max-width: 100%;
+    background-color: rgb(126, 8, 78);
+    height: 30px;
+    border-radius: 4%;
+    margin: 5px;
+    margin-top: 15px;
+}
+
+.socials img:hover {
+    background-color: rgba(255, 254, 254, 0.643);
+    border-radius: 3%;
+}
+
+
+
+
+/***************Footer*******************/
+
+footer {
+    display: flex;
+    background-image: url(https://static.wixstatic.com/media/0396af7423c344a39107ad593c4500f8.jpg);
+    background-size: cover;
+    max-width: 100%;
+    padding-top: 30px;
+
+    justify-content: flex-end;
+    text-align: center;
+    font-family: 'Rokkitt', serif;
+    font-weight: 300;
+
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+}
+
+footer h2 {
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    letter-spacing: 4px;
+}
+
+.work {
+    background-color: rgb(0, 7, 5);
+    width: 50%;
+    padding-right: 4px;
+    align-items: center;
+
+}
+
+.work p {
+    padding-top: 5px;
+    font-size: em;
+}
+
+.hours {
+    background-color: rgb(0, 7, 5);
+    width: 50%;
+    height: 160px;
+    padding-left: 4px;
+}
+
+
+.hours .upper {
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    font-size: .9rem;
+}
+
+.work,
+.hours {
+    height: 200px;
+    padding-top: 10px;
+}
+
+.copyright {
+    text-align: center;
+}
+
+
+
+
+
+/*****************************MEDIA QUERY OVER 600 PIXELS****************************/
+@media screen and (min-width: 850px) {
+
+
+    /***BEGIN HEADER STYLES***/
+
+
+    header h1 {
+        font-family: "Rokkitt";
+        font-weight: 400;
+        font-size: 2em;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        padding-bottom: 5px;
+    }
+
+
+    .header-logos {
+        color: rgb(238, 236, 236);
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding: 5px;
+        font-size: .5em;
+
+    }
+
+
+
+    .header-blurb {
+        font-size: 1.1rem;
+        padding-right: 15px;
+        text-align: right;
+    }
+
+    .header-logos h1 {
+
+        padding-left: 20px;
+    }
+
+    .name-logo {
+        max-width: 100%;
+        max-height: 75px;
+        padding-top: 5px;
+        padding-left: 25px;
+    }
+
+    /***BEGIN NAVIGATION STYLES***/
+    nav {
+        max-width: 100%;
+    }
+
+    .nav-menu {
+        width: 100%;
+
+    }
+
+    .nav1,
+    .nav2 {
+        display: flex;
+        width: 100%;
+
+    }
+
+    .nav1 div,
+    .nav2 div {
+        width: 50%;
+    }
+
+    nav ul {
+        line-height: 1.75;
+        padding: 20px;
+        width: 100%;
+    }
+
+    nav li {
+        font-family: "Nunito", sans-serif;
+        background-color: rgb(0, 13, 9);
+        margin: 4px;
+        padding: 15px 5px;
+        align-content: center;
+    }
+
+    /*STYLE MAIN*/
+
+    main {
+        margin-top: 10px;
+    }
+
+    /***STYLE HERO IMAGE***/
+
+    .intro {
+        max-width: 100%;
+        margin: 0% 5%;
+        gap: 25px;
+        align-items: center;
+    }
+
+    .intro h2 {
+        font-size: 2.6em;
+    }
+
+    .intro-blurb {
+        margin: 0% 10%;
+        padding: 10px;
+
+
+    }
+
+
+
+    .hero {
+
+        height: 360px;
+        background-position: top;
+        background-size: cover;
+        background-repeat: none;
+        justify-content: center;
+        padding-top: 10px;
+        margin: 0% 12%;
+
+    }
+
+    .order {
+        display: flex;
+        margin-top: 10px;
+        padding: 10px;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        font-family: 'Nunito', sans-serif;
+        gap: 5px;
+        ;
+    }
+
+    .order a {
+        color: floralwhite;
+        font-size: .8em;
+        text-transform: uppercase;
+        text-align: center;
+        align-items: center;
+        padding: 5px;
+        height: 35px;
+        width: 33%;
+    }
+
+
+
+    /*BEGIN SPECIALS AND HAPPY HOUR*/
+
+    .weekly {
+        display: flex;
+        max-width: 100%;
+        padding: 20px 30px;
+        font-size: 1.1rem;
+    }
+
+
+    .specials {
+        justify-content: center;
+    }
+
+    .specials-table {
+        width: 40%;
+        height: auto;
+    }
+
+    .happy-hour {
+        width: 60%;
+        padding-top: 0px;
+        text-align: right;
+        align-items: center;
+    }
+
+    .happy-hour ul {
+        padding-top: 10px;
+        line-height: 2;
+        text-align: right;
+
+    }
+
+    /*style drink photos*/
+
+    .cocktails {
+        justify-content: center;
+        text-align: center;
+        padding: 15px;
+        font-size: 1.5rem;
+    }
+
+    .drinks-photos {
+        display: flex;
+        gap: 10px;
+        padding-bottom: 15px;
+        justify-content: center;
+    }
+
+    /*BEGIN LOCATIONS STYLING*/
+
+    .address {
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+    }
+
+    .col-1,
+    .col-2,
+    .col-3 {
+        width: 33%;
+    }
+
+
+    /*BEGIN FOOTER STYLING*/
+    footer {
+        max-width: 100%;
+    }
+
+    footer tr {
+        height: 30px;
+    }
+
+    .hours,
+    .work {
+        padding: 10px 20px;
+        height: 160px;
+        justify-content: center;
+        width: 50%;
+
+    }
+
+    .work p {
+        padding-top: 15px;
+        padding-bottom: 3px;
+        margin: 0% 2%;
+        font-size: 1.2em;
+
+
+    }
+
+    .work {
+        align-items: center;
+    }
+
+}

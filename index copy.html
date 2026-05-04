@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+
+<!-- All fonts used are from Google fonts or are common websafe fonts.
+
+    All CSS styling is done by me. 
+    Any HTML or CSS I have done that was not learned in class was learned from W3Schools or StackOverflow.
+    Any code snippets that I did not personally write will be noted by comment -->
+
+<head>
+
+    <title>Canton Food Not Bombs</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Lexend+Deca:wght@100..900&family=Manrope:wght@200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+
+    <!--  I used an existing icon stylesheet from w3schools.com for the "contact us" section. 
+ I have it linked below.
+ All <<icon>> code snippets in the the class "contact" are taken from w3schools. 
+ The icon CSS styling, however, is my own written code.
+ The hyperlink for email address in the class "contact" is my own written code -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles2.css">
+</head>
+
+
+<body>
+    <div class="container">
+
+
+        <!-- Create the header bar -->
+
+        <header>
+
+            <div class="title"><img src="https://foodnotbombs.net/new_site/images/FNB_logo_color.png"
+                    alt="Food Not Bombs Logo">
+                <h1 class="name">Canton Food Not Bombs</h1>
+            </div>
+
+            <!-- Create the navigation bar -->
+
+        </header>
+
+        <nav>
+            <div class="navigation"><a href="index.html">Home</a></div>
+            <div class="navigation"><a href="">About</a></div>
+            <div class="navigation"><a href="impactpage.html" target="_blank">Our Impact</a></div>
+            <div class="navigation"><a href="">Contact Us</a></div>
+        </nav>
+    </div>
+
+
+
+
+
+
+    <!-- Create the main body -->
+
+    <!-- All vegetable icons are of my own creation, made with Canva.
+         The gallerypic.png was made by me in Canva as well, using a quote I researched which was a statement originally
+         said by Dean Spade, with my own composition, styling, and decoration.-->
+
+
+    <div class="outer">
+
+        <div class="veggiesicon">
+            <img src="photos copy/veggiesicon.png" alt="carrots and onion">
+        </div>
+
+        <div class="hero-image"><div class="image-one"><img src="photos copy/MainCantonFNB1.jpg"></div>
+            <p class="quote">"Mutual aid projects let us practice meeting our own and each other's needs, based in
+                shared commitments to dignity, care, and justice."</p>
+            <div class="author">
+                <p>—Dean Spade</p>
+            </div>
+        </div>
+
+
+
+
+        <div class="get-involved">
+
+            <h1><img src="photos copy/leftcarroticon.png" alt="left carrot"> Get Involved <img
+                    src="photos copy/rightcarroticon.png" alt="right carrot"></h1>
+
+            <div class="actionbuttons">
+                <div class="action"><a href="">Donate</a></div>
+                <div class="action"><a href="">Resources</a></div>
+                <div class="action"><a href="">zines</a></div>
+                <div class="action"><a href="bookclub.html" target="_blank">Book Club</a></div>
+                <div class="action last"><a href="">Join</a></div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Create about section -->
+
+
+        <div class="about-container">
+
+
+            <h1 id="about"><img src="photos copy/leftcarroticon.png" alt="left carrot"> About Us <img
+                    src="photos copy/rightcarroticon.png" alt="right carrot"></h1>
+
+            <div class="about-body">
+                <div class="canton">
+                    <h3>Who We Are</h3>
+                    <p>We are the local Canton, OH chapter of Food Not Bombs, a nationwide mutual aid organization. Our
+                        chapter is dedicated
+                        to providing mutual aid to our community members and neighbors in the form of sharing food and
+                        other necessities weekly.</p>
+                    <br>
+
+                    <p> Each chapter operates somewhat differently. Our chapter provides a hot meal to
+                        community members every Saturday, rain or shine, <em>no strings attached</em>.
+                    </p>
+
+                </div>
+
+
+                <div class="mission">
+                    <h3>Our Mission & Values</h3>
+                    <p>We believe believes food is a human right. We believe
+                        that
+                        governments fighting wars while allowing their citizens to live in poverty is a form of
+                        violence.
+
+                        We believe that when we share food, we are starting a revolution. <br>
+                    </p>
+
+                </div>
+
+                <div class="expectations">
+                    <h3>What To Expect at a Share</h3>
+
+                    <ul class="offerings">
+
+                        <li>A free vegetarian meal, no questions asked, <em>no ID or religious affiliation
+                                required.</em></li>
+                        <li>Toiletries and seasonal needs (i.e. hats, sunscreen, hand sanitizer).</li>
+                        <li>Harm reduction supplies such as Narcan and condoms.</li>
+                        <li>Reading materials, including informational pamphlets and zines. We put our zines out
+                            quarterly!</li>
+                    </ul>
+
+
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+    <!-- Create footer -->
+
+    <footer>
+        <div class="location">
+            <h3>Location</h3>
+            <p>Walnut and 6th NE <br> Canton, OH 44702</p>
+        </div>
+
+        <!--
+     I used the base code from w3 schools for the subscription box, but built my CSS styling of it 
+     independently, and I did not copy and paste the entire box. I created my own from two separate snippets
+     of the W3Schools code. -->
+
+        <div class="newsletter">
+            <form>
+                <h3>Subscribe to our Substack!</h3>
+                <input type="text" placeholder="Enter email address" name="mail" required>
+
+                <div class="submit">
+                    <input type="submit" value="Subscribe">
+                </div>
+            </form>
+        </div>
+
+        <div class="contact">
+            <h3>
+                Contact Us
+            </h3>
+            <a href="mailto:cantonfnb@gmail.com">cantonfnb@gmail.com</a>
+            <div class="socials">
+                <a href="https://www.facebook.com/CantonFNB" class="fa fa-facebook" target="_blank"></a>
+                <a href="https://www.instagram.com/cantonfnb/" class="fa fa-instagram" target="_blank"></a>
+            </div>
+        </div>
+    </footer>
+    </div>
+
+
+</body>
+
+</html>
